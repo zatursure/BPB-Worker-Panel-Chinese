@@ -7,7 +7,6 @@
 !scripts/build.js
 !.github/
 !.github/**
-!README_fa.md
 !README.md
 !RELEASE.md
 !docs
