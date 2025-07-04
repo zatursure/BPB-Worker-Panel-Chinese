@@ -50,6 +50,7 @@ jobs:
           tag: v${{ env.RELEASE_VERSION }}
           release_name: Release v${{ env.RELEASE_VERSION }}
           overwrite: true
+          prerelease: false
+          make_latest: true
           file_glob: true
-          prerelease: true
           body: ${{ steps.read_release.outputs.RELEASE_BODY }}
